@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+///////////
+// COLORS
+///////////
+
+$white: #fff;
+$black: #000;
+
+$mineshaft: #2a2a2a;
+$tundora: #444;
+$dove-gray: #707070;
+$metorite: #3d1f83;
+
+// $fountain-blue: #5dbeba;
+$fountain-blue: lightblue;
+
+$school-bus-yellow: #ffde00;
+
+$red: #ff0000;
+
+$primary-color: $metorite;
+$secondary-color: $school-bus-yellow;
+$dark-gray: $mineshaft;
+$danger: $red;
+//////////
+// FONTS
+//////////
+
+$font-primary-color: $primary-color;
+$fontRoboto: "Roboto", sans-serif;
+$fontPoppins: "Poppins", sans-serif;
+$fontMontserrat: "Montserrat", sans-serif;
+
+////////////////
+// FONT SIZE
+////////////////
+
+$font-size-lg: 1.2rem;
+$font-size-md: 1rem;
+$font-size-sm: 0.8rem;
+$font-size-xs: 0.6rem;
+
+////////////////
+// FONT WEIGHT
+////////////////
+
+$fontWeightThin: 300;
+$fontWeightBase: 400;
+$fontWeightMedium: 500;
+$fontWeightSemi: 600;
+$fontWeightBold: 700;
+
+/////////////////
+// Z-INDEX
+/////////////////
+$zindex--header: 50;
+$zindex--modal: 1000;
+$zindex--target: 10;
+
+/////////////////
+// SCREEN SIZES
+/////////////////
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;

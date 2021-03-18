@@ -1,0 +1,14 @@
+// Tools
+@import "./tools/variables.scss";
+@import "./tools/mixins.scss";
+@import "./tools/placeholders.scss";
+
+// Base
+@import "./base/normalize.scss";
+@import "./base/base.scss";
+
+// Components
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/main.scss";
+@import "./components/tabs.scss";

@@ -1,0 +1,17 @@
+%section-title {
+  font-size: 2rem;
+  color: $white;
+  font-family: $fontMontserrat;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: $fontWeightThin;
+  padding: 2rem 0;
+
+  @media (min-width: $screen-sm) {
+    font-size: 4rem;
+  }
+
+  span {
+    font-weight: $fontWeightMedium;
+  }
+}
