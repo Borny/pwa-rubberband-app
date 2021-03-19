@@ -7,9 +7,9 @@
   width: 100%;
   max-width: $screen-sm;
   overflow: hidden;
-  
+
   @media (min-width: $screen-sm) {
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba($color: black, $alpha: 0.5);
   }
 }
