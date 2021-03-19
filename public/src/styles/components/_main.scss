@@ -1,14 +1,15 @@
 .main {
+  position: relative;
   display: flex;
   flex-flow: column;
   flex: 1;
   margin: 1rem auto 0;
   width: 100%;
   max-width: $screen-sm;
-  // border: 1px solid $primary-color;
-  border-radius: 8px;
-
+  overflow: hidden;
+  
   @media (min-width: $screen-sm) {
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba($color: black, $alpha: 0.5);
   }
 }

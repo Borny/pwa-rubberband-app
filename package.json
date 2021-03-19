@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel public/index.html",
+    "build": "rm -r build/ && parcel build public/index.html -d build --public-url ./ --no-source-maps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "http-server": "^0.9.0",
     "sass": "^1.32.8"
   }
