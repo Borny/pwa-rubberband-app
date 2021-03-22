@@ -20,4 +20,19 @@
     color: $white;
     position: relative;
   }
+
+  .install-btn {
+    color: $white;
+    margin: 0 0 0 1rem;
+    border-radius: 50px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid $white;
+  }
 }

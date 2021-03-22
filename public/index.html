@@ -5,6 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="icon" type="/favicon.ico" sizes="16x16" href="./favicon.ico" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="PWAGram" />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-57x57.png"
+      sizes="57x57"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-60x60.png"
+      sizes="60x60"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-72x72.png"
+      sizes="72x72"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-76x76.png"
+      sizes="76x76"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-114x114.png"
+      sizes="114x114"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-120x120.png"
+      sizes="120x120"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-144x144.png"
+      sizes="144x144"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-152x152.png"
+      sizes="152x152"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/img/icons2/apple-icon-180x180.png"
+      sizes="180x180"
+    />
   </head>
   <body>
     <header class="header">
@@ -30,6 +85,11 @@
         />
       </svg>
       <h1>Rubberband training</h1>
+      <button class="btn install-btn" id="install-app">+</button>
+      <!-- <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
+                id="install-app">
+          <i class="material-icons">add</i>
+        </button> -->
     </header>
     <main class="main">
       <!-- TABS -->
@@ -279,7 +339,9 @@
                 </svg>
               </div>
               <span
-                >x10 flag diagonal<span class="label__turquoise">(turquoise)</span></span
+                >x10 flag diagonal<span class="label__turquoise"
+                  >(turquoise)</span
+                ></span
               >
             </label>
           </div>
@@ -783,7 +845,7 @@
                   </g>
                 </svg>
               </div>
-              <span>1min</span>
+              <span>x50 pinky</span>
             </label>
           </div>
           <div class="checkbox-container">
@@ -1196,7 +1258,7 @@
               <span>x50 thumb-ring</span>
             </label>
           </div>
-          
+
           <div class="checkbox-container">
             <input type="checkbox" id="compress-pinky" class="input-checkbox" />
             <label for="compress-pinky" class="label">
@@ -1331,305 +1393,317 @@
           </div>
         </div>
 
-                <!-- COMPRESS HOLD -->
-                <div class="content__item">
-                  <div class="content__item__title">COMPRESS HOLD</div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-full-hand"
-                      class="input-checkbox"
+        <!-- COMPRESS HOLD -->
+        <div class="content__item">
+          <div class="content__item__title">COMPRESS HOLD</div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-full-hand"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-full-hand" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-full-hand" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min full-hand</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-all-fingers-tips"
-                      class="input-checkbox"
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-all-fingers-tips" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min all fingers tips</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input type="checkbox" id="compress-hold-index" class="input-checkbox" />
-                    <label for="compress-hold-index" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-index</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-middle"
-                      class="input-checkbox"
+                  </g>
+                </svg>
+              </div>
+              <span>1min full-hand</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-all-fingers-tips"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-all-fingers-tips" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-middle" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-middle</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input type="checkbox" id="compress-hold-ring" class="input-checkbox" />
-                    <label for="compress-hold-ring" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-ring</span>
-                    </label>
-                  </div>
-                  
-                  <div class="checkbox-container">
-                    <input type="checkbox" id="compress-hold-pinky" class="input-checkbox" />
-                    <label for="compress-hold-pinky" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-pinky</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-index-middle"
-                      class="input-checkbox"
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-index-middle" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-index/middle</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-middle-ring"
-                      class="input-checkbox"
+                  </g>
+                </svg>
+              </div>
+              <span>1min all fingers tips</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-index"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-index" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-middle-ring" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-middle/ring</span>
-                    </label>
-                  </div>
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="compress-hold-ring-pinky"
-                      class="input-checkbox"
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
                     />
-                    <label for="compress-hold-ring-pinky" class="label">
-                      <div class="checkbox">
-                        <svg
-                          class="checkmark"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18.731"
-                          height="15.129"
-                          viewBox="0 0 18.731 15.129"
-                        >
-                          <g transform="translate(0 0)">
-                            <rect
-                              width="5.434"
-                              height="10.528"
-                              transform="translate(0 7.685) rotate(-45)"
-                              fill="#fff"
-                            />
-                            <rect
-                              width="15.962"
-                              height="5.434"
-                              transform="translate(3.602 11.287) rotate(-45)"
-                              fill="#fff"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                      <span>1min thumb-ring/pinky</span>
-                    </label>
-                  </div>
-                </div>
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-index</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-middle"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-middle" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-middle</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-ring"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-ring" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-ring</span>
+            </label>
+          </div>
+
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-pinky"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-pinky" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-pinky</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-index-middle"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-index-middle" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-index/middle</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-middle-ring"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-middle-ring" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-middle/ring</span>
+            </label>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="compress-hold-ring-pinky"
+              class="input-checkbox"
+            />
+            <label for="compress-hold-ring-pinky" class="label">
+              <div class="checkbox">
+                <svg
+                  class="checkmark"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18.731"
+                  height="15.129"
+                  viewBox="0 0 18.731 15.129"
+                >
+                  <g transform="translate(0 0)">
+                    <rect
+                      width="5.434"
+                      height="10.528"
+                      transform="translate(0 7.685) rotate(-45)"
+                      fill="#fff"
+                    />
+                    <rect
+                      width="15.962"
+                      height="5.434"
+                      transform="translate(3.602 11.287) rotate(-45)"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span>1min thumb-ring/pinky</span>
+            </label>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="footer">
