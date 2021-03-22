@@ -4,14 +4,14 @@ let deferredPrompt;
 const installBtn = document.getElementById('install-app');
 
 // SERVICE WORKER
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-  .then(() => {
-    console.log('Service worker registered!');
-  });
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('/sw.js')
+//   .then(() => {
+//     console.log('Service worker registered!');
+//   });
+// }
 
-// DEFERRING THE INSTALLATION
+// // DEFERRING THE INSTALLATION
 window.addEventListener('beforeinstallprompt', (event) => {
   console.log('beforeinstallprompt fired');
   event.preventDefault();
