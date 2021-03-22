@@ -1,8 +1,8 @@
 {
   "name": "Rubberband training app",
   "short_name": "Rubberband",
-  "start_url": "/",
-  "scope": ".",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#3d1f83",
