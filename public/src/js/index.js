@@ -5,8 +5,7 @@ const installBtn = document.getElementById('install-app');
 
 // SERVICE WORKER
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-  .then(() => {
+  navigator.serviceWorker.register('/sw.js').then(() => {
     console.log('Service worker registered!');
   });
 }
@@ -21,7 +20,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 
 // INSTALL THE APP
 installBtn.addEventListener('click', () => {
-  console.log('install the app')
+  console.log('install the app');
   if (deferredPrompt) {
     deferredPrompt.prompt();
 
@@ -103,3 +102,12 @@ resetBtn.addEventListener('click', () => {
 
   updateLocalStorage();
 });
+
+
+// CACHING REQUEST
+if('caches' in window){
+  caches.match('/index.html')
+  .then((res) => {
+    // console.log('its a match !: ', res)
+  })
+}

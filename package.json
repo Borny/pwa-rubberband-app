@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -r dist/ && parcel public/index.html",
+    "dev": "rm -r dist/ && parcel public/index.html public/pages/*.html",
     "build": "rm -r build/ && parcel build public/index.html -d build --public-url ./ --no-source-maps",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "gh-pages": "git subtree push --prefix build origin gh-pages"
   },
   "author": "",

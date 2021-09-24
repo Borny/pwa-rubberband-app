@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+// @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 ///////////
 // COLORS
@@ -33,9 +33,9 @@ $font-primary-color: $primary-color;
 // FONTS
 //////////
 
-$fontRoboto: "Roboto", sans-serif;
-$fontPoppins: "Poppins", sans-serif;
-$fontMontserrat: "Montserrat", sans-serif;
+// $fontRoboto: 'Roboto', sans-serif;
+$fontPoppins: 'Poppins', sans-serif;
+// $fontMontserrat: 'Montserrat', sans-serif;
 
 ////////////////
 // FONT SIZE
